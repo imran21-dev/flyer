@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+#user .active {
+
+@apply bg-primary/70 shadow-md   relative 
+
+}
+
+
+#user .active::before{
+ content: '';
+ width: 5px;
+ height: 22px;
+ border-radius: 50px;
+ background: linear-gradient(45deg, #0099FF, #BB33FF, #FF5280, #FFBA00);
+ position: absolute;
+ left: 0;
+ 
+}
+
+
+#sidebar .active .icon{
+ background: linear-gradient(45deg, #0099FF, #BB33FF, #FF5280, #FFBA00);
+ color: white;
+
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    @apply rounded-full bg-primary/50
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(255, 0, 0, 0);
+    width: 50px;
+}
+
+
+
+#userInfo{
+ @apply flex justify-center flex-col items-center pb-10 w-full
+}
+
+.input-class {
+@apply py-2 pr-2 bg-transparent font-medium text-sm text-accent placeholder:text-neutral/30 placeholder:font-normal rounded-2xl w-full focus:outline-none
+}
+.input-con{
+@apply flex items-center bg-primary rounded-full overflow-hidden
+}
+.input-bg{
+@apply bg-text-texture p-[1px] rounded-full my-1
+}
+.input-label{
+@apply label-text text-transparent bg-text-texture bg-clip-text
+}
