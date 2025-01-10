@@ -9,7 +9,7 @@ Flyer is designed to provide a straightforward and efficient platform for real-t
 - ***Real-time Messaging:*** Users can send and receive messages instantly, ensuring seamless communication.
 - ***User Profiles:***  Each user has a personalized profile, allowing for a more tailored messaging experience.
 - ***Message History:***  Users can view past conversations for easy reference and continued discussions.
-- ***Simple Interface: ***  The app offers a clean and easy-to-navigate design for effortless messaging.
+- ***Simple Interface:***  The app offers a clean and easy-to-navigate design for effortless messaging.
   Flyer focuses on making communication fast and convenient, providing users with a platform to connect and engage in meaningful conversations.
 
 ### Technologies
